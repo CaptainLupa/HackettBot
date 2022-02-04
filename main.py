@@ -97,7 +97,8 @@ async def on_ready():
 
 @hackett.command(name="quirkedup", help="You know what it does.")
 async def quirkedup(ctx):
-    await ctx.send(f"<@!{ctx.author.id}> is definietly a quirked up white boy, and he is most certainly busting it down sexual style, but is he goated with the sauce?")
+    await ctx.send(f"<@!{ctx.author.id}> is definitely a quirked up white boy, and he is most certainly busting it down"
+                   f" sexual style, but is he goated with the sauce?")
 
 
 @hackett.command(name="ping", help="Pings the closest door")
